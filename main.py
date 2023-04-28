@@ -9,3 +9,10 @@ class Question():
         self.w1_answer = wrong1
         self.w2_answer = wrong2
         self.w3_answer = wrong3
+questions_list = []
+q1 = Question('Самая быстрая машина в мире?', 'Koenigsegg Jesko Absolut', 'Lamborghini Huracan', 'Bugatti Chiron', 'Ferrari')
+q2 = Question('Самая дорогая машина в мире?','Rolce Royse','Mercedes','Lamborgini','Ferrari')
+q3 = Question('Самый мощный ноутбук в мире?','GPD WIN MAX2','Asus Rog','Asus Tuf','Hp')
+questions_list.append(q1)
+questions_list.append(q2)
+questions_list.append(q3)
